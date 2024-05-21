@@ -1,0 +1,47 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependencias del módulo
+node_modules/
+
+# Directorios de construcción
+dist/
+build/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Configuración del entorno
+.env
+
+# Directorios de herramientas y configuraciones específicas del entorno
+.vscode/
+.idea/
+
+# Configuración de producción local
+*.local
+
+# Cobertura de pruebas
+coverage/
+
+# Archivos temporales
+*.tmp
+*.swp
+
+# Paquetes empaquetados
+*.tgz
+
+# Archivos de bloqueo de paquetes
+package-lock.json
+yarn.lock
+
+# Archivos específicos de servidor
+pids
+*.pid
+*.seed
+*.pid.lock
